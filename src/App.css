@@ -1,0 +1,61 @@
+* {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+
+.App {
+     background-image: url('https://w7.pngwing.com/pngs/895/576/png-transparent-sound-wave-color-rainbow-sound-wave-curve-multicolored-wave-illustration-happy-birthday-vector-images-wave-pattern-cartoon-thumbnail.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     /* height: 685px;
+     overflow: hidden;
+     align-items: center;
+     display: flex;
+     justify-content: center; */
+}
+
+.form-control{
+       display: flex;
+
+     /* border-radius: 45px;
+     display: flex;
+     font-size: 20px;
+     height: 60px;
+     justify-content: center;
+     left: o;
+     margin-top: 96px;
+     opacity: 7;
+     text-align: center;
+     top: 0;
+     width: 400px; */
+}
+
+.btn {
+     background-color: #20dbe8;
+     border: none;
+     border-radius: 100px;
+     color: hwb(187 10% 87%);
+     display: flex;
+     font-weight: 700;
+     height: 70px;
+     margin: 2rem auto;
+     padding-top: 2.2rem;
+}
+
+.city-weather h2 {
+     display: flex;
+     font-size: 40px;
+     font-weight: 700;
+     justify-content: center;
+}
+
+.city-temp {
+     align-self: center;
+     color: red;
+     display: flex;
+     font-size: 90px;
+     font-weight: 800;
+     flex-direction: row;
+     justify-content: center;
+}
